@@ -1,0 +1,22 @@
+body{background-color: hsl(30, 38%, 92%);}
+
+.org-price{display: inline;}
+.cart-img{display: inline; padding-right: 10px; padding-top: 15px}
+.add-to-cart{display: inline;}
+.pro-img{height: 450px; border-radius: 15px;}
+.image{height: 450px;}
+.main{background-color: hsl(0, 0%, 100%); width: 600px; margin: auto;}
+.details{margin-left: 30px;}
+.img-clm{padding: 0;}
+
+.details p {font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 14px; color: hsl(228, 12%, 48%); margin-bottom: 30px;}
+.details h1 {font-family: 'Fraunces', serif; font-weight: 700; margin-bottom: 40px;}
+.details h4 {font-family: 'Montserrat', sans-serif; font-weight: 700; color: hsl(0, 0%, 100%); }
+.price{display: inline;color: hsl(158, 36%, 37%);}
+.title{color: hsl(212, 21%, 14%);}
+
+.buy-button{background-color: hsl(158, 36%, 37%); height: 50px; text-align: center; margin: 20px; border-radius: 10px}
+.org-price {text-decoration: line-through; margin-left:30px;}
+.main {border-radius: 15px;}
+
+.buy-button:hover {background-color: #1A4031}
