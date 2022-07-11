@@ -1,0 +1,20 @@
+body {background-color: hsl(0, 0%, 95%)}
+.main {display:flex; justify-content: center;}
+.card {width: 14%; display: inline-block; font-family: 'Lexend Deca', sans-serif; padding-left: 3%; padding-right: 3%; padding-top: 3%}
+.first {background-color: hsl(31, 77%, 52%);}
+.second {background-color: hsl(184, 100%, 22%);}
+.third {background-color: hsl(179, 100%, 13%);}
+.attribution {font-size: 15px; text-align: center; margin-top: 1%;}
+.attribution a {color: hsl(228, 45%, 44%); }
+.card h1 {color: hsl(0, 0%, 95%); font-family: 'Big Shoulders Display', cursive;}
+.card p {color: hsla(0, 0%, 100%, 0.75); font-size: 15px; line-height: 175%; margin-top: 25%;}
+.card button {background-color: hsl(0, 0%, 95%); font-size: 15px; font-family: 'Lexend Deca', sans-serif; margin-top: 25%; margin-bottom: 25%; height: 40px; text-align: center; width: 60%; border-radius: 20px; border-color: hsl(0, 0%, 95%); border-style: solid;}
+.first {border-radius: 2.5% 0 0 2.5%;}
+.third {border-radius: 0 2.5% 2.5% 0;}
+.first button {color: hsl(31, 77%, 52%);}
+.second button {color: hsl(184, 100%, 22%);}
+.third button {color: hsl(179, 100%, 13%);}
+
+.first button:hover {background-color:hsl(31, 77%, 52%); color: hsl(0, 0%, 95%);}
+.second button:hover {background-color:hsl(184, 100%, 22%); color: hsl(0, 0%, 95%);}
+.third button:hover {background-color:hsl(179, 100%, 13%); color: hsl(0, 0%, 95%);}
