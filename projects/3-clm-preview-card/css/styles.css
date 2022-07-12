@@ -21,5 +21,7 @@ body {background-color: hsl(0, 0%, 95%)}
 
 @media screen and (max-width: 320px) {
     .card {display: block;}
+    body {background-color: black;}
+
     
 }
