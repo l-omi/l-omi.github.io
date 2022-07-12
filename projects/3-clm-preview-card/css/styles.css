@@ -18,3 +18,8 @@ body {background-color: hsl(0, 0%, 95%)}
 .first button:hover {background-color:hsl(31, 77%, 52%); color: hsl(0, 0%, 95%);}
 .second button:hover {background-color:hsl(184, 100%, 22%); color: hsl(0, 0%, 95%);}
 .third button:hover {background-color:hsl(179, 100%, 13%); color: hsl(0, 0%, 95%);}
+
+@media screen and (max-width: 320px) {
+    .card {display: block;}
+    
+}
