@@ -1,0 +1,116 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+.main {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 1px 30px #c7c7c7;
+}
+
+.top {padding-left: 7%;
+padding-top: 2%;
+margin-bottom: 7.5%;}
+
+.top h2 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 5%;
+}
+
+.top h3 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 4%;
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    line-height: 100%;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom div {padding-left: 7%;}
+
+.left {
+    padding-top: 3%;
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    color: white;
+    border-radius: 0 0 0 10px;
+    padding-bottom: 4%;
+}
+
+.left p {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+.price {
+    display: inline;
+}
+
+.left button {
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    height: 20%;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px #666666;
+}
+
+.right {
+    padding-top: 3%;
+    background-color: #4ABEBD;
+    width: 50%;
+    color: hsl(204, 43%, 93%);
+    border-radius: 0 0 10px 0;
+    padding-bottom: 4%;
+}
+
+.right h3 {
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+.right p {
+    font-weight: 400;
+    line-height: 40%;
+}
+
+.tag {margin-top: 3%;}
+
+
+@media screen and (max-width:376px) {
+    .main {width: 85%;}
+    .bottom {display: block;}
+    .bottom div {width: 93%;}
+    .top h2 {font-size: 22px;}
+    .top h3 {font-size: 15px; margin-top: 8%;}
+    .top p {line-height: 140%; font-size: 14px; margin-bottom: 14%;}
+    .top {padding-right: 1%;}
+    .left button {width: 93%; height: 40px;}
+    .right h3 {margin-bottom: 10%; margin-top: 15%;}
+    .main {border-radius: 5px 5px 5px 5px;}
+    .right {border-radius: 0 0 5px 5px;}
+    .left {border-radius: 0 0 0 0;}
+    .bottom div {padding-left: 7;}
+    .bottom p {width: 90%;}
+    .right p {line-height: 90%;}
+}
